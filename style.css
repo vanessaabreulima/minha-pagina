@@ -1,59 +1,141 @@
 * {
     margin: 0;
     padding: 0;
-  }
-  body {
-    display: flex;
-    justify-content: center;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    background-color: rgb(237, 202, 225);
+    text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+.site-header {
+  display: flex;
+  gap: 70px;
+  padding: 20px;
+  color: rgb(230, 17, 237);
+  align-items: center;
+  background-color: rgb(177, 232, 244);
+  font-size:  1.8rem;
+  letter-spacing: 0.4rem;
+  cursor: pointer;
+}
+.home-title {
+  color: rgb(230, 17, 237) ;
+  align-items: center;
+  display: flex;
+}
+
+.menu-list {
+  display: flex;
+  gap: 50px;
+  align-items: center;
+  font-weight: bold;
+  color: rgb(230, 17, 237);;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Alfa Slab One", serif;
+  align-items: center;
+}
+
+body {
+    background: linear-gradient(rgb(16, 16, 16, 0.5), rgba(25, 25, 25, 0.5)), url(oficina1.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-position-y: 0px;
+    background-repeat: no-repeat;
     align-items: center;
-    height: 100vh;
-    width: 100;
-    font-family: "Arial";
-    gap:20px;
-  }
-  .card {
-    background-color: pink;
-    width: 180px;
-    height: 280px;
-    border-radius: 10px;
-    box-shadow: 4px 4px 10px rgba(128, 128, 128, 0.783);
-    border-top-left-radius: 12px;
-    border-top-right-radius: 12px;
-    margin-left: 20%;
-    margin-top: 5%;
-  }
-  
-  .card div {
+}
+#home {
+  width: 200%;
+  height: 1200%;
+}
+.home-image {
+  object-fit: cover;
+  object-position: bottom;
+}
+
+.h1 {
+  color: rgb(10, 211, 211);
+  gap: 50px;
+  margin-bottom: 5px;
+  padding: 20px;
+
+}
+
+.h2 {
+  color: rgb(10, 211, 211);
+  gap: 50px;
+  margin-bottom: 5px;
+  padding: 20px;
+
+}
+
+.h3 {
+  color: rgb(10, 211, 211);
+  gap: 50px;
+  margin-bottom: 5px;
+  padding: 20px;
+
+}
+#promotions {
+  align-items: center;
+  gap: 10px;
+  padding-top: 10px;
+}
+.card {
+  gap: 10px;
+  display: flex;
+  margin-top: 20px;
+}
+
+footer {
+    background-color: rgb(138, 44, 122);
+    color: rgb(8, 138, 143);
+    padding: 20px 0;
+    font-size: 1.6rem;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-bottom: 0;
+    padding: 20px;
+}
+
+
+.footer-form form {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 2px;
-    height: 40%;
-  }
-  .h1 {
-    font-size: 1.2rem;
-  }
-  .h2 {
-    font-size: .9rem;
-    color: #5c5c5ceb;
-  }
-  .h2 {
-    font-size: .9rem;
-    color: #5c5c5ceb;}
-  .card button {
-    background-color: #2192FF;
-    height: 30px;
+}
+
+.footer-form label {
+    margin-bottom: 5px;
+}
+
+.footer-form input {
+    margin-bottom: 10px;
+    padding: 5px;
+    font-size: 1.4rem;
+}
+
+.footer-form button {
+    padding: 10px;
+    font-size: 1.6rem;
+    background-color: rgb(6, 111, 114);
     border: none;
-    padding: 4px;
-    width: 80%;
-    color: #fff;
-    font-size: 1rem;
-    font-weight: bold;
-    border-radius: 4px;
-  }
+    cursor: pointer;
+}
+
+.footer-contact p {
+    margin-bottom: 10px;
+}
   .card button:hover {
-    background-color: #137de8;
+    background-color: rgb(8, 138, 143);
     cursor: pointer;
   }
-  
